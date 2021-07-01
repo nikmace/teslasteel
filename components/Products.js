@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from '../styles/Heading.module.scss';
+import Image from 'next/image';
 
 const Products = () => {
     return (
@@ -15,7 +16,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/various">
                         <a>
-                            <img src="/products/kapanduri.png" alt="Product" />
+                            <Image width={250} height={180} src="/products/kapanduri.png" alt="Product" />
                             <p>Капандури за оранжерии</p>
                         </a>
                     </Link>
@@ -24,7 +25,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/various">
                         <a>
-                            <img src="/products/profil.jpeg" alt="Product" />
+                            <Image width={250} height={180}  src="/products/profil.jpeg" alt="Product" />
                             <p>П - Профил за поликарбонат</p>
                         </a>
                     </Link>
@@ -33,7 +34,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/various">
                         <a>
-                            <img src="/products/lenta.png" alt="Product" />
+                            <Image width={250} height={180}  src="/products/lenta.png" alt="Product" />
                             <p>Перфорирана лента</p>
                         </a>
                     </Link>
@@ -42,7 +43,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/mitlider">
                         <a>
-                            <img src="/products/mitlider.jpeg" alt="Product" />
+                            <Image width={250} height={180}  src="/products/mitlider.jpeg" alt="Product" />
                             <p>Оранжерии Митлайдер</p>
                         </a>
                     </Link>
@@ -51,7 +52,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/lale">
                         <a>
-                            <img src="/products/lale.jpeg" alt="Product" />
+                            <Image width={250} height={180}  src="/products/lale.jpeg" alt="Product" />
                             <p>Оранжерии Лале с отварящ се покрив</p>
                         </a>
                     </Link>
@@ -60,7 +61,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/agronom3">
                         <a>
-                            <img src="/products/oranzheria.jpeg" alt="Product" />
+                            <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
                             <p>Оранжерии - Широчина 3м</p>
                         </a>
                     </Link>
@@ -69,7 +70,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/strelka">
                         <a>
-                            <img src="/products/strelka3m.jpeg" alt="Product" />
+                            <Image width={250} height={180}  src="/products/strelka3m.jpeg" alt="Product" />
                             <p>Оранжерии - Широчина 3м</p>
                         </a>
                     </Link>
@@ -78,7 +79,7 @@ const Products = () => {
                 <div className="content__products-item">
                     <Link href="/agronom4">
                         <a>
-                            <img src="/products/oranzheria.jpeg" alt="Product" />
+                            <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
                             <p>Оранжерии - Широчина 4м</p>
                         </a>
                     </Link>

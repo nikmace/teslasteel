@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
                 <div className="logo">
                     <Link href="/">
                         <a>
-                            <img src="logo-1.svg" alt="teslasteel" />
+                            <Image width="70" height="70" src="/logo-1.svg" alt="teslasteel" />
                         </a>
                     </Link>
                     
@@ -23,8 +24,8 @@ const Navbar = () => {
                     </ul>
                     <div className="vl"></div>
                     <a className="contacts__link">
-                        <img src="cart.svg" alt="Cart" />
-                        ПОРЪЧАЙ
+                        <Image src="/cart.svg" alt="Cart" width={20} height={20}/>
+                        <p>ПОРЪЧАЙ</p>
                     </a>
                 </div>
             </div>

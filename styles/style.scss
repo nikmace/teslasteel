@@ -80,8 +80,11 @@
         color: #6B6B6B;
 
         img {
-            margin-left: 10px;
             margin-right: 10px;
+        }
+
+        p {
+            margin-left: 10px;
         }
     }
 }
@@ -245,6 +248,7 @@
         }
 
         &-info {
+            margin-top: 20px;
             h5, h4 {
                 font-weight: 300;
                 margin-bottom: 13px;
@@ -318,6 +322,7 @@
                 font-weight: 300;
                 font-size: 24px;
                 line-height: 29px;
+                margin-top: 13px;
                 margin-bottom: 10px;
             }
     

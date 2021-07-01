@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import ContentInfo from '../../components/ContentInfo';
+import Image from 'next/image';
 
 const Strelka = () => {
     return (
@@ -11,9 +12,8 @@ const Strelka = () => {
             <ContentInfo text="ОРАНЖЕРИИ ОТ ПОЛИКАРБОНАТ ШИРОЧИНА 3 М"/>
             <section className="product">
                 <div className="product__wrapper">
-                        <div className="product__wrapper-img">
-                                <img src="/products/strelka3m.jpeg" alt="Оранжерия"/>
-                                
+                        <div className="product__wrapper-Image width={50} height={50} ">
+                            <Image objectFit="contain" width={900} height={460} src="/products/strelka3m.jpeg" alt="Оранжерия"/>
                         </div>
                     <div className="product__wrapper-info">
                         <div className="product__wrapper-info_name">
@@ -39,7 +39,7 @@ const Strelka = () => {
                 <div className="cards three-cards">
                     <div className="cards__item">
                         <h4>Стрелка 4м</h4>
-                        <img src="check.svg" alt="check"/>
+                        <Image width={50} height={50} src="/check.svg" alt="check"/>
                         <h3>990 лв</h3>
                         <p>Размер: 3 х 4 х 2</p>
                         <span>в наличност</span>
@@ -47,7 +47,7 @@ const Strelka = () => {
     
                     <div className="cards__item">
                         <h4>Стрелка 6м</h4>
-                        <img src="check.svg" alt="check"/>
+                        <Image width={50} height={50} src="/check.svg" alt="check"/>
                         <h3>1190 лв</h3>
                         <p>Размер: 3 х 6 х 2</p>
                         <span>в наличност</span>
@@ -55,7 +55,7 @@ const Strelka = () => {
     
                     <div className="cards__item">
                         <h4>Стрелка 8м</h4>
-                        <img src="check.svg" alt="check"/>
+                        <Image width={50} height={50} src="/check.svg" alt="check"/>
                         <h3>1390 лв</h3>
                         <p>Размер: 3 х 8 х 2</p>
                         <span>в наличност</span>
