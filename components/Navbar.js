@@ -22,37 +22,37 @@ const Navbar = () => {
                         <li>info@teslasteel.eu</li>
                     </ul>
                     <div className="vl"></div>
-                    <a href="#" className="contacts__link">
+                    <a className="contacts__link">
                         <img src="cart.svg" alt="Cart" />
                         ПОРЪЧАЙ
                     </a>
                 </div>
             </div>
 
-            <section class="navigation">
-                <ul class="navigation__list">
+            <section className="navigation">
+                <ul className="navigation__list">
                     <Link href="/about">
-                        <li class="navigation__list-item">
+                        <li className="navigation__list-item">
                             <a>ЗА КОМПАНИЯТА</a>
                         </li>
                     </Link>
                     <Link href="/">
-                        <li class="navigation__list-item ">
+                        <li className="navigation__list-item ">
                             <a>ПРОДУКТИ</a>
                         </li>
                     </Link>
                     <Link href="/services">
-                        <li class="navigation__list-item">
+                        <li className="navigation__list-item">
                             <a>УСЛУГИ</a>
                         </li>
                     </Link>
                     <Link href="/delivery">
-                        <li class="navigation__list-item">
+                        <li className="navigation__list-item">
                             <a>ДОСТАВКА И ПЛАЩАНЕ</a>
                         </li>
                     </Link>
                     <Link href="/contacts">
-                        <li class="navigation__list-item">
+                        <li className="navigation__list-item">
                             <a>КОНТАКТИ</a>
                         </li>
                     </Link>

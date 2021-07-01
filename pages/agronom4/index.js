@@ -4,20 +4,20 @@ import ContentInfo from '../../components/ContentInfo';
 
 const Agronom4 = () => {
     return (
-        <main class="content">
+        <main className="content">
             <Head>
               <title>Оранжерии | Агроном 40 Плюс</title>
              </Head>
 
              <ContentInfo text="ОРАНЖЕРИИ ОТ ПОЛИКАРБОНАТ ШИРОЧИНА 4 М" />
-            <section class="product">
-                <div class="product__wrapper">
-                        <div class="product__wrapper-img">
+            <section className="product">
+                <div className="product__wrapper">
+                        <div className="product__wrapper-img">
                                 <img src="/products/oranzheria4m.jpeg" alt="Оранжерия" />
                                 
                         </div>
-                    <div class="product__wrapper-info">
-                        <div class="product__wrapper-info_name">
+                    <div className="product__wrapper-info">
+                        <div className="product__wrapper-info_name">
                             <h4>Оранжерия АГРОНОМ 40 Плюс Широчина 4 м</h4>
                             <p>Супер здрава основа от поцинкована конструкция и издържлив поликарбонат</p>
                         </div>
@@ -35,10 +35,10 @@ const Agronom4 = () => {
                 </div>
             </section>
             
-            <section class="prices">
+            <section className="prices">
                 <h2>Цени</h2>
-                <div class="cards">
-                    <div class="cards__item">
+                <div className="cards">
+                    <div className="cards__item">
                         <h4>Агроном 4м</h4>
                         <img src="check.svg" alt="check" />
                         <h3>1190 лв</h3>
@@ -46,7 +46,7 @@ const Agronom4 = () => {
                         <span>в наличност</span>
                     </div>
     
-                    <div class="cards__item">
+                    <div className="cards__item">
                         <h4>Агроном 6м</h4>
                         <img src="check.svg" alt="check" />
                         <h3>1390 лв</h3>
@@ -54,7 +54,7 @@ const Agronom4 = () => {
                         <span>в наличност</span>
                     </div>
     
-                    <div class="cards__item">
+                    <div className="cards__item">
                         <h4>Агроном 8м</h4>
                         <img src="check.svg" alt="check" />
                         <h3>1640 лв</h3>
@@ -62,7 +62,7 @@ const Agronom4 = () => {
                         <span>в наличност</span>
                     </div>
     
-                    <div class="cards__item">
+                    <div className="cards__item">
                         <h4>Агроном 10м</h4>
                         <img src="check.svg" alt="check" />
                         <h3>1890 лв</h3>
@@ -72,7 +72,7 @@ const Agronom4 = () => {
                 </div>
             </section>
 
-            <section class="additional-info">
+            <section className="additional-info">
                 <h2>Допълнителна информация</h2>
                 <p>Закрепване на поликарбонат с поцинковани самонеразни винтове с гумено уплътнение и шайба</p>
                 <p>При монтаж на оранжерията на ветровити места, е необходимо допълнително закрепване за земята с подръчни материали</p>

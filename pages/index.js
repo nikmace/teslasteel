@@ -9,7 +9,7 @@ export default function Home() {
           <Head>
               <title> TeslaSteel | Оранжерии</title>
           </Head>
-        <main class="content">
+        <main className="content">
             <Products />
         </main>
       </div>
