@@ -5,18 +5,18 @@ import styles from '../../styles/Heading.module.scss';
 
 const Services = () => {
     return (
-        <main class="content">
+        <main className="content">
             <Head>
               <title>TeslaSteel | Услуги</title>
             </Head>
-            <div class="content__info">
-                <h1 class="content__heading">
+            <div className="content__info">
+                <h1 className="content__heading">
                     <span className={styles.span}>Представени услуги</span>
                 </h1>
                 <div className="services__container">
                     <div className="services__container-item">
                         <Image src="/products/dostavka.jpeg" width="400" height="380" alt="Доставка" />
-                        <div class="services__container-item--text">
+                        <div className="services__container-item--text">
                             <h3>СТОЙНОСТ НА ДОСТАВКА НА ОРАНЖЕРИИ</h3>
                             <p>до 50 км от София  - 50 лв.</p>
                             <p>до 100 км от София  - 70 лв.</p>
@@ -29,7 +29,7 @@ const Services = () => {
 
                     <div className="services__container-item">
                         <Image src="/products/montazh.jpeg" width="400" height="380" alt="Доставка" />
-                        <div class="services__container-item--text">
+                        <div className="services__container-item--text">
                             <h3>СТОЙНОСТ НА МОНТИРАНЕ НА ОРАНЖЕРИИ</h3>
                             <div className="services__container-item--text__block">
                                 <div>
@@ -49,7 +49,7 @@ const Services = () => {
                     </div>
 
                     <div className="services__item">
-                        <div class="services__item-text">
+                        <div className="services__item-text">
                             <h4>Оранжерия с отварящ се покрив Лале</h4>
                             <p>3 х 4 - 420 лв.</p>
                             <p>3 х 6 - 540 лв.</p>
@@ -57,7 +57,7 @@ const Services = () => {
                             <p>Монтиране задължително на дръвени гръди</p>
                         </div>
 
-                        <div class="services__item-text">
+                        <div className="services__item-text">
                             <h4>Оранжерия с отварящ се покрив Лале</h4>
                             <p>3 х 4 - 420 лв.</p>
                             <p>3 х 6 - 540 лв.</p>
@@ -65,7 +65,7 @@ const Services = () => {
                             <p>Монтиране задължително на дръвени гръди</p>
                         </div>
 
-                        <div class="services__item-text">
+                        <div className="services__item-text">
                             <h4>Оранжерия с отварящ се покрив Лале</h4>
                             <p>3 х 4 - 420 лв.</p>
                             <p>3 х 6 - 540 лв.</p>
@@ -75,7 +75,7 @@ const Services = () => {
                     </div>
 
                     <div className="services__mount">
-                        <div class="services__mount-text">
+                        <div className="services__mount-text">
                             <h3>Монтиране на Т образни кръкчети </h3>
                             <p>1. При монтаж на оранжерията трябва да бъда равна и нивелирана площадка. Подгответе я преди да дойдат майстори за монтаж. Това ще спести време за всеки от вас. В монтаж се включва сглобяване на метална конструкция и покритие с поликарбонат както и качване на Т образни крачета в подготвени дупки с размер 20 см на 20 см и дълбочина 15 см през всеки 2 м. от вашата страна. </p>
                             <p>2. В случая ако искате да го монтираме ввърху дървена греда, подгответе я по размер на поисканата оранжерията. Парцел трябва да бъде нивелиран. </p>
