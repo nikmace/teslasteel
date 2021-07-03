@@ -247,6 +247,8 @@
             }
         }
 
+       
+
         &-info {
             margin-top: 20px;
             h5, h4 {
@@ -262,6 +264,24 @@
 
             &_name {
                 margin-bottom: 10px;
+            }
+        }
+        
+    }
+    &__container {
+        width: 100%;
+        margin: 0px auto;
+        display: flex;
+
+        &-image {
+            height: 200px;
+            border-radius: 10px;
+            flex: 1;
+            transition: 1s;
+
+            &:hover {
+                flex: 4;
+                height: 420px;
             }
         }
     }
@@ -469,6 +489,9 @@ footer {
             height: 400px;
         }
     }
+    .product__container {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 500px) {
@@ -484,4 +507,6 @@ footer {
             height: 400px;
         }
     }
+
+    
 }

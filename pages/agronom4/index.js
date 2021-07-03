@@ -13,8 +13,20 @@ const Agronom4 = () => {
              <ContentInfo text="ОРАНЖЕРИИ ОТ ПОЛИКАРБОНАТ ШИРОЧИНА 4 М" />
             <section className="product">
                 <div className="product__wrapper">
-                        <div className="product__wrapper-Image width={50} height={50} ">
-                            <Image objectFit="contain" width={900} height={460} src="/products/oranzheria4m.jpeg" alt="Оранжерия" />
+                        <div className="product__container">
+                                <div className="product__container-image">
+                                    <Image objectFit="contain" width={700} height={600} src="/products/oranzheria4m.jpeg" alt="Оранжерия" />
+                                </div>
+                                <div className="product__container-image">
+                                    <Image objectFit="contain" width={700} height={600} src="/products/oranzheria4m.jpeg" alt="Оранжерия" />
+                                </div>
+                                <div className="product__container-image">
+                                    <Image objectFit="contain" width={700} height={600} src="/products/oranzheria4m.jpeg" alt="Оранжерия" />
+                                </div>
+                                <div className="product__container-image">
+                                    <Image objectFit="contain" width={700} height={600} src="/products/oranzheria4m.jpeg" alt="Оранжерия" />
+                                </div>
+                            {/* <Image objectFit="contain" width={900} height={460} src="/products/oranzheria4m.jpeg" alt="Оранжерия" /> */}
                         </div>
                     <div className="product__wrapper-info">
                         <div className="product__wrapper-info_name">
