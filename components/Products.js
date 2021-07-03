@@ -14,7 +14,7 @@ const Products = () => {
             </div>
             <div className="content__products">
                 <div className="content__products-item">
-                    <Link href="/various">
+                    <Link href="/products/parts">
                         <a>
                             <Image width={250} height={180} src="/products/kapanduri.png" alt="Product" />
                             <p>Капандури за оранжерии</p>
@@ -23,7 +23,7 @@ const Products = () => {
                 </div>
 
                 <div className="content__products-item">
-                    <Link href="/various">
+                    <Link href="/products/parts">
                         <a>
                             <Image width={250} height={180}  src="/products/profil.jpeg" alt="Product" />
                             <p>П - Профил за поликарбонат</p>
@@ -32,7 +32,7 @@ const Products = () => {
                 </div>
 
                 <div className="content__products-item">
-                    <Link href="/various">
+                    <Link href="/products/parts">
                         <a>
                             <Image width={250} height={180}  src="/products/lenta.png" alt="Product" />
                             <p>Перфорирана лента</p>
@@ -41,7 +41,7 @@ const Products = () => {
                 </div>
 
                 <div className="content__products-item">
-                    <Link href="/mitlider">
+                    <Link href="/products/mitlider">
                         <a>
                             <Image width={250} height={180}  src="/products/mitlider.jpeg" alt="Product" />
                             <p>Оранжерии Митлайдер</p>
@@ -50,7 +50,7 @@ const Products = () => {
                 </div>
 
                 <div className="content__products-item">
-                    <Link href="/lale">
+                    <Link href="/products/lale">
                         <a>
                             <Image width={250} height={180}  src="/products/lale.jpeg" alt="Product" />
                             <p>Оранжерии Лале с отварящ се покрив</p>
@@ -59,7 +59,7 @@ const Products = () => {
                 </div>
 
                 <div className="content__products-item">
-                    <Link href="/agronom3">
+                    <Link href="/products/agronom3">
                         <a>
                             <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
                             <p>Оранжерии - Широчина 3м</p>
@@ -68,7 +68,7 @@ const Products = () => {
                 </div>
 
                 <div className="content__products-item">
-                    <Link href="/strelka">
+                    <Link href="/products/strelka">
                         <a>
                             <Image width={250} height={180}  src="/products/strelka3m.jpeg" alt="Product" />
                             <p>Оранжерии - Широчина 3м</p>
@@ -77,7 +77,7 @@ const Products = () => {
                 </div>
 
                 <div className="content__products-item">
-                    <Link href="/agronom4">
+                    <Link href="/products/agronom4">
                         <a>
                             <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
                             <p>Оранжерии - Широчина 4м</p>
