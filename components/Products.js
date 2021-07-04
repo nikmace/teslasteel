@@ -87,7 +87,7 @@ const Products = () => {
             </div>
 
             <div className="contact-us">
-                <p>Свържете се с нас по телефон <span>+359 886 254 676</span> или e-mail: <span><a href="mailto:info@teslasteel.eu">info@teslasteel.eu</a></span>, за да направите заявка, запитване за наличието на продукти или актуални цени или да поискате подкрепяща документация.</p>
+                <p>Свържете се с нас по телефон <span><a href="tel:+359 886 254 676">+359 886 254 676</a></span> или e-mail: <span><a href="mailto:info@teslasteel.eu">info@teslasteel.eu</a></span>, за да направите заявка, запитване за наличието на продукти или актуални цени или да поискате подкрепяща документация.</p>
             </div>
         </>
     )

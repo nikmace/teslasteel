@@ -19,14 +19,16 @@ const Navbar = () => {
                 </div>
                 <div className="contacts">
                     <ul className="contacts__info">
-                        <li>Моб. +359 886 254 676</li>
-                        <li>info@teslasteel.eu</li>
+                        <li><a href="tel:+359 886 254 676">Моб. +359 886 254 676</a></li>
+                        <li><a href="mailto:info@teslasteel.eu">info@teslasteel.eu</a></li>
                     </ul>
                     <div className="vl"></div>
-                    <a className="contacts__link">
-                        <Image src="/cart.svg" alt="Cart" width={20} height={20}/>
-                        <p>ПОРЪЧАЙ</p>
-                    </a>
+                    <Link href="/contacts">
+                        <a className="contacts__link">
+                            <Image src="/cart.svg" alt="Cart" width={20} height={20}/>
+                            <p>ПОРЪЧАЙ</p>
+                        </a>
+                    </Link>
                 </div>
             </div>
 

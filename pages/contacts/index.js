@@ -15,7 +15,7 @@ const Contacts = () => {
                 <div className="delivery__container-item">
                     <div className="delivery__container-item--text">
                         <h3>Офис София:</h3>
-                        <p>Моб.: +(359) 886 254 676</p>
+                        <p><a href="tel:+359 886 254 676">Моб.: +(359) 886 254 676</a></p>
                         <p><a href="mailto:info@teslasteel.eu">info@teslasteel.eu</a></p>
                         <p>Адрес: България, София 1407, ул. Кишинев 7, офис 1</p>
                     </div>
