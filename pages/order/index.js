@@ -1,11 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import emailjs from 'emailjs-com';
 
 import styles from '../../styles/Heading.module.scss';
 
 const Mailer = () => {
-    const [values, setValues] = React.useState({});
     
     const onSubmitFormHandler = (e) => {
         e.preventDefault();
