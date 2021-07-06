@@ -23,7 +23,7 @@ const Navbar = () => {
                         <li><a href="mailto:info@teslasteel.eu">info@teslasteel.eu</a></li>
                     </ul>
                     <div className="vl"></div>
-                    <Link href="/contacts">
+                    <Link href="/order">
                         <a className="contacts__link">
                             <Image src="/cart.svg" alt="Cart" width={20} height={20}/>
                             <p>ПОРЪЧАЙ</p>
