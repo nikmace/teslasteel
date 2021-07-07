@@ -36,7 +36,7 @@ const Contacts = () => {
                 </div>
 
                 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.494595423171!2d28.597483351414517!3d44.17627547900435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baef8badbcb07f%3A0xbed7102a79b534a0!2zU3RyYWRhIFZlcmRlIDM5LCBDb25zdGFuyJthLCDQoNGD0LzRi9C90LjRjw!5e0!3m2!1sru!2sbg!4v1625661312021!5m2!1sru!2sbg" width="800" height="600" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+                <iframe className="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.494595423171!2d28.597483351414517!3d44.17627547900435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40baef8badbcb07f%3A0xbed7102a79b534a0!2zU3RyYWRhIFZlcmRlIDM5LCBDb25zdGFuyJthLCDQoNGD0LzRi9C90LjRjw!5e0!3m2!1sru!2sbg!4v1625661312021!5m2!1sru!2sbg" width="800" height="600" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
             </div>
         </div>
         
