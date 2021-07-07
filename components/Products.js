@@ -14,6 +14,52 @@ const Products = () => {
             </div>
             <div className="content__products">
                 <div className="content__products-item">
+                    <Link href="/products/agronom3">
+                        <a>
+                            <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
+                            <p>Оранжерии - Широчина 3м</p>
+                        </a>
+                    </Link>
+                </div>
+
+                <div className="content__products-item">
+                    <Link href="/products/agronom4">
+                        <a>
+                            <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
+                            <p>Оранжерии - Широчина 4м</p>
+                        </a>
+                    </Link>
+                </div>
+
+                <div className="content__products-item">
+                    <Link href="/products/mitlider">
+                        <a>
+                            <Image width={250} height={180}  src="/products/mitlider3m.jpeg" alt="Product" />
+                            <p>Оранжерии Митлайдер</p>
+                        </a>
+                    </Link>
+                </div>
+
+                <div className="content__products-item">
+                    <Link href="/products/strelka">
+                        <a>
+                            <Image width={250} height={180}  src="/products/strelka3m.jpeg" alt="Product" />
+                            <p>Оранжерии Стрелка</p>
+                        </a>
+                    </Link>
+                </div>
+
+                <div className="content__products-item">
+                    <Link href="/products/lale">
+                        <a>
+                            <Image width={250} height={180}  src="/products/lale.jpeg" alt="Product" />
+                            <p>Оранжерии Лале</p>
+                        </a>
+                    </Link>
+                </div>
+
+
+                <div className="content__products-item">
                     <Link href="/products/parts">
                         <a>
                             <Image width={250} height={180} src="/products/kapanduri.png" alt="Product" />
@@ -36,51 +82,6 @@ const Products = () => {
                         <a>
                             <Image width={250} height={180}  src="/products/lenta.png" alt="Product" />
                             <p>Перфорирана лента</p>
-                        </a>
-                    </Link>
-                </div>
-
-                <div className="content__products-item">
-                    <Link href="/products/mitlider">
-                        <a>
-                            <Image width={250} height={180}  src="/products/mitlider.jpeg" alt="Product" />
-                            <p>Оранжерии Митлайдер</p>
-                        </a>
-                    </Link>
-                </div>
-
-                <div className="content__products-item">
-                    <Link href="/products/lale">
-                        <a>
-                            <Image width={250} height={180}  src="/products/lale.jpeg" alt="Product" />
-                            <p>Оранжерии Лале с отварящ се покрив</p>
-                        </a>
-                    </Link>
-                </div>
-
-                <div className="content__products-item">
-                    <Link href="/products/agronom3">
-                        <a>
-                            <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
-                            <p>Оранжерии - Широчина 3м</p>
-                        </a>
-                    </Link>
-                </div>
-
-                <div className="content__products-item">
-                    <Link href="/products/strelka">
-                        <a>
-                            <Image width={250} height={180}  src="/products/strelka3m.jpeg" alt="Product" />
-                            <p>Оранжерии - Широчина 3м</p>
-                        </a>
-                    </Link>
-                </div>
-
-                <div className="content__products-item">
-                    <Link href="/products/agronom4">
-                        <a>
-                            <Image width={250} height={180}  src="/products/oranzheria.jpeg" alt="Product" />
-                            <p>Оранжерии - Широчина 4м</p>
                         </a>
                     </Link>
                 </div>
